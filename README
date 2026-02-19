@@ -1,0 +1,50 @@
+# Math ILS3 Tools
+
+[![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
+[![Chrome](https://img.shields.io/badge/Chrome-Extension-4285F4?logo=googlechrome&logoColor=white)](#)
+
+![Header](assets/header.png)
+
+One-line description.
+
+> Minimal, clean, no UI changes to ChildsMath.
+
+## Contents
+- [Download](#download)
+- [Install](#install)
+- [Use](#use)
+- [How to know it works](#how-to-know-it-works)
+- [Troubleshooting](#troubleshooting)
+- [License](#license)
+
+## Download
+- **GitHub ZIP:** Click **Code** → **Download ZIP**
+- **Release ZIP (recommended):** Go to **Releases** and download `childsmath-keepalive.zip`
+
+## Install
+1. Unzip the download.
+2. Open `chrome://extensions`
+3. Enable **Developer mode**
+4. Click **Load unpacked**
+5. Select the folder that contains `manifest.json`
+
+## Use
+1. Log into ChildsMath.
+2. Click the extension icon.
+3. Toggle **On**.
+
+![Popup](assets/popup.png)
+
+## How to know it works
+- Wait ~6–7 minutes.
+- Open the popup:
+  - **Last ping** updates
+  - **Last result** shows `OK`
+- Real test: leave ChildsMath idle for 20–30 minutes and confirm you are not logged out.
+
+## Troubleshooting
+- **Network error:** internet/blocked request.
+- **Logged out detected:** ping URL may need to be changed.
+
+## License
+MIT
