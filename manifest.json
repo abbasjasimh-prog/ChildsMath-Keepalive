@@ -1,0 +1,20 @@
+{
+  "name": "ChildsMath Keepalive",
+  "description": "Keeps your ChildsMath session alive by pinging periodically (toggle in popup).",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "action": {
+    "default_title": "ChildsMath Keepalive",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "storage",
+    "alarms"
+  ],
+  "host_permissions": [
+    "https://www.childsmath.ca/*"
+  ],
+  "background": {
+    "service_worker": "service_worker.js"
+  }
+}

@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <div class="card">
+      <div class="row">
+        <div>
+          <div class="title">ChildsMath Keepalive</div>
+          <div class="sub" id="statusLine">Status: —</div>
+        </div>
+
+        <label class="switch" aria-label="Toggle keepalive">
+          <input type="checkbox" id="toggle" />
+          <span class="slider"></span>
+        </label>
+      </div>
+
+      <div class="meta">
+        <div class="metaRow">
+          <span class="label">Last ping</span>
+          <span class="value" id="lastPing">—</span>
+        </div>
+        <div class="metaRow">
+          <span class="label">Last result</span>
+          <span class="value" id="lastResult">—</span>
+        </div>
+        <div class="metaRow">
+          <span class="label">Interval</span>
+          <span class="value">6 min</span>
+        </div>
+      </div>
+    </div>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
